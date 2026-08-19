@@ -1,2 +1,9 @@
-# pdf-tools_filesystem_github_2413_zm22vi_pdf-batch-cli
-Command-line tool for batch PDF text extraction with JSON output
+# PDF Batch CLI
+
+A command-line tool that extracts text from PDF documents in batch mode and writes the results as JSON.
+
+## Usage
+
+```bash
+python src/main.py file1.pdf file2.pdf > output.json
+```
